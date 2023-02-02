@@ -1,0 +1,46 @@
+/* Element selector */
+body {
+    background-color: #333;
+}
+
+/*  . is for classes */
+.primary-heading {
+    color: blue;
+}
+
+/* # for IDs */
+#welcome {
+    background-color: #f4f4f4;
+}
+
+/* multiple selectors */
+#welcome,
+#about,
+#info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Nested Selector */
+#welcome p {
+    font-size: 20px;
+}
+
+#about {
+    color: white;
+}
+
+#info {
+    color: #666;
+    background-color: #f4f4f4;
+}
+
+
+#info p {
+    font-size: 18px;
+}
+
+.info-text {
+    color: olive;
+}
